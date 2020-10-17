@@ -779,7 +779,7 @@ static int XSUM_MemCmpTest(const char* in_dir)
         {
             double timeTaken = 0;
             result = XSUM_MemCmp(buffer, buffer2, blockSize, &timeTaken, readSize2);
-            totalTimeTaken += timeTaken * 100 / CLOCKS_PER_SEC;
+            totalTimeTaken += timeTaken * 1000 / CLOCKS_PER_SEC;
         }
        
         
